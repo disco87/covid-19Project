@@ -22,14 +22,9 @@
 
 
 - 첫 개발 하면서 미흡한점 & 아쉬운 점
-  + Class 내 Data와 View를 동시에 구현 추후 provider나 Bloc Pattern을 적용 필요
-  + firbase의 사용 부재
-  + Firbase 또는 DB의 사용 부재
-
-- 추후 업데이트 예정
-  + 리팩토링을 통한 코드 재정리
-  + Firbase를 통한 데이터 저장 추가 또는 sqlit를 사용을 통한 나의 레시피 저장
-  + 티처블머신을 통한 동작인식을 모델링 후 Health 기능 업데이트
+  + 상위 Application 부재로 인한 상위 데이터 미구현
+  + Motor 출력 부족으로 인한 불안정한 구동
 
 
-- APP 심의 중
+
+
