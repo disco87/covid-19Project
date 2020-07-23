@@ -16,6 +16,7 @@
           <img src = "https://github.com/disco87/covid-19Project/blob/master/MD-images/hardwareflow.JPG" width="500">
         
     3. GUI 구성 :
+    
           <img src = "https://github.com/disco87/covid-19Project/blob/master/MD-images/screen1.JPG" width="250">   <img src = "https://github.com/disco87/covid-19Project/blob/master/MD-images/screen2.JPG" width="250">  <img src = "https://github.com/disco87/covid-19Project/blob/master/MD-images/screen3.JPG" width="250">  
 
 
