@@ -8,11 +8,11 @@
 - 주요 구성 :
     1. Program 구성 :
     
-        <img src = "https://github.com/disco87/covid-19Project/blob/master/MD-images/flow.JPG" width="500">
+                <img src = "https://github.com/disco87/covid-19Project/blob/master/MD-images/flow.JPG" width="500">
 
     2. Hardware 구성 :
         
-        <img src = "https://github.com/disco87/covid-19Project/blob/master/MD-images/hardwareflow.JPG" width="500">
+                <img src = "https://github.com/disco87/covid-19Project/blob/master/MD-images/hardwareflow.JPG" width="500">
         
 
 
