@@ -27,9 +27,14 @@
     <img src = "https://github.com/disco87/covid-19Project/blob/master/MD-images/p1.jpg" width="150" height="250">   <img src = "https://github.com/disco87/covid-19Project/blob/master/MD-images/p2.jpg" width="150" height="250">   <img src = "https://github.com/disco87/covid-19Project/blob/master/MD-images/people.JPG" width="150" height="250">
 
 
+- 언론사 게재(영남일보):["
+https://m.yeongnam.com/view.php?key=20200602001339189"]("영남일보")
+
 - 첫 개발 하면서 미흡한점 & 아쉬운 점
   + 상위 Application 부재로 인한 상위 데이터 통신 미구현
   + Motor 출력 부족으로 인한 불안정한 구동
+  + 라즈베리파이 발열처리 부족으로 인한 System Down
+  
 
 
 
