@@ -7,10 +7,11 @@
     3. 구성 IOT System 과 상위 Application와의 통신 구현
 - 주요 구성 :
     1. Program 구성 :
+        <img src="https://github.com/disco87/covid-19Project/tree/master/MD-images/flow.jpg">
         
     + Main Menu / roullet(음식 랜덤 뽑기)  / 냉장고를 털어라(재료 입력 시 레시피 추천) / Health(추천운동)
 
-        <img src ="https://github.com/disco87/flutter/blob/master/image/menu.png" width="150">  <img src ="https://github.com/disco87/flutter/blob/master/image/roulet.png" width="150" >   <img src ="https://github.com/disco87/flutter/blob/master/image/serch.png" width="150"> <img src ="https://github.com/disco87/flutter/blob/master/image/health.png" width="150">
+
 
 - 첫 개발 하면서 미흡한점 & 아쉬운 점
   + Class 내 Data와 View를 동시에 구현 추후 provider나 Bloc Pattern을 적용 필요
