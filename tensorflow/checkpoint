@@ -1,0 +1,2 @@
+model_checkpoint_path: "cp_face.ckpt"
+all_model_checkpoint_paths: "cp_face.ckpt"

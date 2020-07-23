@@ -1,0 +1,181 @@
+# -*- coding: utf-8 -*-
+#: import utils kivy
+#: import os os
+#: import Factory kivy.factory.Factory
+
+<Bt@Button>
+    font_name:'HANDotum'
+<Manager>:
+
+    ScreenMain:
+        id:screen_main_id
+        name: 'ScreenMain'
+    ScreenOne:
+        id: screen_one_id
+        name: 'Screen1'  
+<ScreenMain>:
+    FloatLayout:
+        StatusBar:
+            pos_hint: {'top':1}
+            size_hint:1, 0.05
+            ActionView:
+                use_separator: True 
+                background_color:0,0,0,1
+                     
+                ActionPrevious:
+                    title: 'COLONA'                    
+                    with_previous: False 
+                ActionButton:
+                    text:'button'
+                    icon:'atlas://data/images/defaulttheme/audio-volume-low'
+                ActionButton:
+                    text:'button2'
+                    icon: 'C:/Users/w/Documents/python/gui/img/battery _25.png'
+                ActionButton:
+                    text:'wifi'
+                    icon: 'C:/Users/w/Documents/python/gui/img/wifi_full.png'
+
+        FloatLayout:
+            size_hint:1,1
+            
+
+            CamLive:
+                size_hint:1,1
+            
+        FloatLayout:
+            Bt:            
+                # text: root.bt_song 
+                size_hint:0.08,0.08
+                pos_hint:{'x':0.35,'y':0.01} 
+                border:0,0,0,0
+                background_normal:'img/song.png'
+                background_down:'img/song.png' 
+                on_press: root.song_popup()                   
+            Bt:
+                # text:root.bt_cam
+                size_hint:0.08,0.08
+                pos_hint:{'x':0.45,'y':0.01}
+                border:0,0,0,0
+                background_normal:'img/cam2.png'
+                background_down:'img/cam2.png'
+                on_press:root.cam_p()
+            Bt:            
+                # text:root.bt_manager 
+                size_hint:0.08,0.08
+                pos_hint:{'x':0.55,'y':0.01}
+                border:0,0,0,0
+                background_normal:'img/gear.png'
+                background_down:'img/gear.png'
+                on_press: root.manager.current = 'Screen1'
+<Picture_popup>:
+    id:pop
+    size_hint:0.7,0.7
+    title:'Camera'
+    FloatLayout:
+        FloatLayout:
+            
+            Bt:
+                text:'save'
+                on_press:pop.dismiss()
+                size_hint:0.2,0.2
+                pos_hint:{'x':0.73,'y':0.27}
+            Bt:
+                text:'retry'
+                on_press:root.capture()
+                size_hint:0.2,0.2
+                pos_hint:{'x':0.53,'y':0.27}
+        FloatLayout:
+            size_hint:1,0.8
+            pos_hint:{'x':0,'y':0.2}
+            canvas.before:
+                Rectangle:                             
+                    pos:self.pos
+                    size:self.size
+                    texture:root.texture
+<WarningPopup>:
+    title:'When save, Touch me'
+    background:'warning.png'
+    id:pop1
+    size_hint:0.5,0.5
+    Bt:
+        text:'close'
+        on_press:root.warning_back()
+    # Button:
+                      
+    #     size_hint:10,10
+    #     background_color:0,0,0,0
+    #     pos_hint:{'x':-0.6,'y':-0.7}
+    #     on_press:root.warning_back() 
+
+            
+<SongPopup>:
+    rv: rv
+    id:pop
+    size_hint:0.5,0.5
+    auto_dismiss:False
+    title:'MP3 Play List'
+   
+    FloatLayout:
+        
+        Bt:
+            text:'X'             
+            size_hint:10,10
+            background_color:0,0,0,0
+            pos_hint:{'x':-0.6,'y':-0.7}
+            on_press:pop.dismiss()  
+        Rv:
+            pos_hint:{'x':0,'y':0.1}
+            id:rv            
+            data:self.data
+            viewclass: 'SelectableLabel'
+            SelectableRecycleBoxLayout:                
+                default_size: None, dp(56)
+                default_size_hint: 1, None
+                size_hint_y: None
+                height: self.minimum_height
+                orientation: 'vertical'
+                multiselect: False
+                touch_multiselect: True
+
+        ToggleButton:
+            font_name:'HANDotum'
+            text:'play'
+            size_hint:1, 0.1
+            pos_hint:{'x':0,'y':0}
+            on_state:
+                if self.state == 'normal': root.btNormal()
+                else: root.btDown()
+                if self.state == 'normal':self.text = 'play'
+                else:self.text = '||'
+         
+
+        # ToggleButton:
+        #     font_name:'HANDotum'
+        #     text:root.t_btn_text_on
+        #     group:'song'
+        #     on_release: 
+        #     size_hint:1, 0.1
+        #     pos_hint:{'x':0,'y':0}
+
+<SelectableLabel>:
+    # Draw a background to indicate selection
+    canvas.before:
+        Color:
+            rgba: (.0, .0, .2, .2) if self.selected else (0, 0, 0, 0)
+        Rectangle:
+            pos: self.pos
+            size: self.size
+    canvas.before:
+        Color:
+            rgba: (.0, .0, .2, .2) if self.selected else (0, 0, 0, 0)
+        Rectangle:
+            pos: self.pos
+            size: self.size  
+
+                  
+<ScreenOne>
+    BoxLayout:
+        orientation:'vertical'
+    Button:
+        text:'Main Page'
+        on_press:root.manager.current='ScreenMain'     
