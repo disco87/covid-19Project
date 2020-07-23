@@ -6,7 +6,7 @@
     2. Raspberry와 Opencv를 이용한 이미지 처리
     3. 구성 IOT System 과 상위 Application와의 통신 구현
 - 주요 구성 :
-    1. Program 구성 :
+    <strong>1. Program 구성 :
     
           <img src = "https://github.com/disco87/covid-19Project/blob/master/MD-images/flow.JPG" width="500">
 
