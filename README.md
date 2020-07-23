@@ -20,7 +20,7 @@
     3. GUI 구성(라이브러리 : kivy) :
       + MP3듣기, 열측정
     
-          <img src = "https://github.com/disco87/covid-19Project/blob/master/MD-images/screen1.JPG" width="250">    <img src = "https://github.com/disco87/covid-19Project/blob/master/MD-images/screen2.JPG" width="250">      <img src = "https://github.com/disco87/covid-19Project/blob/master/MD-images/screen3.JPG" width="250">  
+          <img src = "https://github.com/disco87/covid-19Project/blob/master/MD-images/screen1.JPG" width="250">&nbsp&nbsp&nbsp    <img src = "https://github.com/disco87/covid-19Project/blob/master/MD-images/screen2.JPG" width="250">      <img src = "https://github.com/disco87/covid-19Project/blob/master/MD-images/screen3.JPG" width="250">  
         
 - 실제 구현 & 기증(경산의 모 어린이집 기증) :
 
