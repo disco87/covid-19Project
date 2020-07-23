@@ -5,7 +5,9 @@
     1. Raspberry를 이용한 구동 System 구현
     2. Raspberry와 Opencv를 이용한 이미지 처리
     3. 구성 IOT System 과 상위 Application와의 통신 구현
-- 주요 구성 : 
+- 주요 구성 :
+    1. Program 구성 :
+        
     + Main Menu / roullet(음식 랜덤 뽑기)  / 냉장고를 털어라(재료 입력 시 레시피 추천) / Health(추천운동)
 
         <img src ="https://github.com/disco87/flutter/blob/master/image/menu.png" width="150">  <img src ="https://github.com/disco87/flutter/blob/master/image/roulet.png" width="150" >   <img src ="https://github.com/disco87/flutter/blob/master/image/serch.png" width="150"> <img src ="https://github.com/disco87/flutter/blob/master/image/health.png" width="150">
