@@ -1,4 +1,4 @@
-## COVID-19 Project
+## COVID-19 Project - IOT Project
 
 - 주제 : Python + 라즈베리파이를 이용한 COVID-19 Care
 - 사용 Program언어 : Python
@@ -24,7 +24,7 @@
         
 - 실제 구현 & 기증 :
 
-    <img src = "https://github.com/disco87/covid-19Project/blob/master/MD-images/p1.JPG" width="150">   <img src = "https://github.com/disco87/covid-19Project/blob/master/MD-images/p2.JPG" width="150">   <img src = "https://github.com/disco87/covid-19Project/blob/master/MD-images/people.JPG" width="150">
+    <img src = "https://github.com/disco87/covid-19Project/blob/master/MD-images/p1.jpg" width="150">   <img src = "https://github.com/disco87/covid-19Project/blob/master/MD-images/p2.jpg" width="150">   <img src = "https://github.com/disco87/covid-19Project/blob/master/MD-images/people.JPG" width="150">
 
 
 - 첫 개발 하면서 미흡한점 & 아쉬운 점
