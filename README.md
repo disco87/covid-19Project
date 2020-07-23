@@ -9,7 +9,7 @@
   
 - 주요 구성 :
     1. Program 구성 :
-      + Kivy로 GUI 구성, Function구현(얼굴 인식, 열화상 측정, MP3재생등)
+      + Kivy로 GUI 구성, Function구현(얼굴 인식, 열화상 측정, MP3재생등)<br/>
     
           <img src = "https://github.com/disco87/covid-19Project/blob/master/MD-images/flow.JPG" width="500">
 
